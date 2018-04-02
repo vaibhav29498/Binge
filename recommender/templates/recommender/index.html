@@ -21,7 +21,7 @@
     <div class="container-fluid bg-light fixed-top h-100 d-flex flex-column justify-content-between align-items-center">
         <a class="text-primary align-self-end" href="{% url 'credits' %}">Credits</a>
         <div>
-            <h1 class="p-2 display-1 text-primary" style="font-family: 'Indie Flower', cursive;">Binge.</h1>
+            <h1 class="p-2 display-1 text-primary text-center" style="font-family: 'Indie Flower', cursive;">Binge.</h1>
             <form class="p-2" method="post" action="{% url 'recommender' %}">
                 {% csrf_token %}
                 <div class="form-group">
